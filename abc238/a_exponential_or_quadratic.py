@@ -1,9 +1,9 @@
 n = int(input())
-n = min(n,10)
-ans = 'No'
+n = min(n,5)
 if pow(2,n) > n*n:
-    ans = 'Yes'
-print(ans)
+  print('Yes')
+else:
+  print('No')
 
 #---自分の間違った回答---#
 # n = int(input())

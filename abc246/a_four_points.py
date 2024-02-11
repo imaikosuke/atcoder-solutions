@@ -1,7 +1,7 @@
 x = [0]*3
 y = [0]*3
 
-for i in range(2):
+for i in range(3):
   x[i],y[i] = map(int,input().split())
 
 # x座標を計算

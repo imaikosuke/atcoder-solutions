@@ -1,4 +1,3 @@
-# 入力を受け取る
 x, y = map(int, input().split())
 
 # 原点からの距離の二乗を計算
@@ -11,5 +10,4 @@ d = d2**0.5
 dx = x / d
 dy = y / d
 
-# 結果を出力
 print(dx, dy)

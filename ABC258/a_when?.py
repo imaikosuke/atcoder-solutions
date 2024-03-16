@@ -1,9 +1,6 @@
 k = int(input())
-h = k // 60
-h += 21
+h = 21
+if 60 <= k:
+    h = 22
 m = k % 60
-
-if 23 < h:
-    h -= 24
-
-print(str(h) + ":" + str(m))
+print(f'{h}:{m:02}')
